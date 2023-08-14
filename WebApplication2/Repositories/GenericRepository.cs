@@ -2,11 +2,9 @@
 using System.Data.Entity.Validation;
 
 using System.Linq;
-using WebApplication2.Data;
-using WebApplication2.UnitOfWork;
-using EntityState = Microsoft.EntityFrameworkCore.EntityState;
+using UnitOfWorkWithRepository.Data;
 
-namespace WebApplication2.Repositories
+namespace UnitOfWorkWithRepository.Repositories
 {
     public class GenericRepository<T> : IGenericRepository<T> 
         where T : class

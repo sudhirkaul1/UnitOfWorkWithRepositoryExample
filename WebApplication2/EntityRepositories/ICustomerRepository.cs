@@ -1,7 +1,7 @@
-﻿using WebApplication2.Models;
-using WebApplication2.Repositories;
+﻿using UnitOfWorkWithRepository.Models;
+using UnitOfWorkWithRepository.Repositories;
 
-namespace WebApplication2.Contracts
+namespace UnitOfWorkWithRepository.EntityRepositories
 {
     public interface ICustomerRepository : IGenericRepository<Customer>
     {

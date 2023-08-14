@@ -1,4 +1,4 @@
-namespace WebApplication2
+namespace UnitOfWorkWithRepository
 {
     public class WeatherForecast
     {

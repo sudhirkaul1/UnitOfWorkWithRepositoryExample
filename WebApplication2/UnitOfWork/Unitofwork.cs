@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using System.Data.Entity.Validation;
-using WebApplication2.Data;
-using WebApplication2.Repositories;
+using UnitOfWorkWithRepository.Data;
+using UnitOfWorkWithRepository.Repositories;
+using UnitOfWorkWithRepository.UnitOfWork;
 
-
-namespace WebApplication2.UnitOfWork;
+namespace UnitOfWorkWithRepository.UnitOfWork;
 public class UnitOfWork<TContext> : IUnitofwork<TContext>, IDisposable
     where TContext : AppDbContext
 {

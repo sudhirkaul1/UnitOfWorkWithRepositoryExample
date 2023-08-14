@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-using WebApplication2.Contracts;
-using WebApplication2.Data;
-using WebApplication2.Models;
-using WebApplication2.Repositories;
-using WebApplication2.UnitOfWork;
+using UnitOfWorkWithRepository.Data;
+using UnitOfWorkWithRepository.EntityRepositories;
+using UnitOfWorkWithRepository.Models;
+using UnitOfWorkWithRepository.Repositories;
+using UnitOfWorkWithRepository.UnitOfWork;
 
 var builder = WebApplication.CreateBuilder(args);
 

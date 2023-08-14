@@ -1,13 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System.Collections;
-using WebApplication2.Contracts;
-using WebApplication2.Data;
-using WebApplication2.Models;
-using WebApplication2.Repositories;
-using WebApplication2.UnitOfWork;
+using UnitOfWorkWithRepository.Data;
+using UnitOfWorkWithRepository.EntityRepositories;
+using UnitOfWorkWithRepository.Models;
+using UnitOfWorkWithRepository.UnitOfWork;
 
-namespace WebApplication2.Controllers
+namespace UnitOfWorkWithRepository.Controllers
 {
     [ApiController]
     [Route("[controller]")]

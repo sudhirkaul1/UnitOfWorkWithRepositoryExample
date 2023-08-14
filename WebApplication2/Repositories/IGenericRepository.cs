@@ -1,6 +1,6 @@
 ﻿using Microsoft.CodeAnalysis.CSharp.Syntax;
 
-namespace WebApplication2.Repositories
+namespace UnitOfWorkWithRepository.Repositories
 {
     public interface IGenericRepository<T> where T : class
     {

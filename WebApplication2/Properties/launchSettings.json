@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "WebApplication2": {
+    "UnitOfWorkWithRepository": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

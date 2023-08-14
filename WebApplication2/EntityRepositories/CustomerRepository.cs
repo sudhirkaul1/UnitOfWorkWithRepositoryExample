@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WebApplication2.Data;
-using WebApplication2.Models;
-using WebApplication2.Repositories;
+using UnitOfWorkWithRepository.Data;
+using UnitOfWorkWithRepository.Models;
+using UnitOfWorkWithRepository.Repositories;
 using System.Linq;
 
-namespace WebApplication2.Contracts
+namespace UnitOfWorkWithRepository.EntityRepositories
 {
     public class CustomerRepository : GenericRepository<Customer>, ICustomerRepository
     {

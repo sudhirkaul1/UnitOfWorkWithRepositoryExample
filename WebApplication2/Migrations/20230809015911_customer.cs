@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace WebApplication2.Migrations
+namespace UnitOfWorkWithRepository.Migrations
 {
     /// <inheritdoc />
     public partial class customer : Migration

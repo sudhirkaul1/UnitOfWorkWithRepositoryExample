@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using WebApplication2.Repositories;
+using UnitOfWorkWithRepository.Repositories;
 
-namespace WebApplication2.UnitOfWork
+namespace UnitOfWorkWithRepository.UnitOfWork
 {
     public interface IUnitofwork<TContext> where TContext : DbContext
     {
